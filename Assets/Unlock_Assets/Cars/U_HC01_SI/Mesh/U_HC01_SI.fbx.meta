@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 82e73a9075d984f45b68441cdf0d4d15
+timeCreated: 1513725429
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: CarBBody
+    100002: Interior_Low
+    100004: U_HC01_Black
+    100006: U_HC01_Caliper_F
+    100008: U_HC01_Caliper_F 1
+    100010: U_HC01_Caliper_R
+    100012: U_HC01_Caliper_R 1
+    100014: U_HC01_CarbonFiber
+    100016: U_HC01_CarBotton
+    100018: U_HC01_CarPaint
+    100020: U_HC01_CarPaint_color02
+    100022: U_HC01_chrome
+    100024: U_HC01_Lights
+    100026: U_HC01_lights_Glass
+    100028: U_HC01_RearView_Low
+    100030: U_HC01_Rotor
+    100032: U_HC01_Rotor 1
+    100034: U_HC01_Rotor 2
+    100036: U_HC01_Rotor 3
+    100038: //RootNode
+    100040: U_HC01_Tire
+    100042: U_HC01_Tire 1
+    100044: U_HC01_Tire 2
+    100046: U_HC01_Tire 3
+    100048: U_HC01_Wheel
+    100050: U_HC01_Wheel 1
+    100052: U_HC01_Wheel 2
+    100054: U_HC01_Wheel 3
+    100056: U_HC01_Windows
+    100058: Wheel
+    100060: Wheel 1
+    100062: Wheel 2
+    100064: Wheel 3
+    100066: Wheel_FL
+    100068: Wheel_FR
+    100070: Wheel_RL
+    100072: Wheel_RR
+    100074: Wheels
+    400000: CarBBody
+    400002: Interior_Low
+    400004: U_HC01_Black
+    400006: U_HC01_Caliper_F
+    400008: U_HC01_Caliper_F 1
+    400010: U_HC01_Caliper_R
+    400012: U_HC01_Caliper_R 1
+    400014: U_HC01_CarbonFiber
+    400016: U_HC01_CarBotton
+    400018: U_HC01_CarPaint
+    400020: U_HC01_CarPaint_color02
+    400022: U_HC01_chrome
+    400024: U_HC01_Lights
+    400026: U_HC01_lights_Glass
+    400028: U_HC01_RearView_Low
+    400030: U_HC01_Rotor
+    400032: U_HC01_Rotor 1
+    400034: U_HC01_Rotor 2
+    400036: U_HC01_Rotor 3
+    400038: //RootNode
+    400040: U_HC01_Tire
+    400042: U_HC01_Tire 1
+    400044: U_HC01_Tire 2
+    400046: U_HC01_Tire 3
+    400048: U_HC01_Wheel
+    400050: U_HC01_Wheel 1
+    400052: U_HC01_Wheel 2
+    400054: U_HC01_Wheel 3
+    400056: U_HC01_Windows
+    400058: Wheel
+    400060: Wheel 1
+    400062: Wheel 2
+    400064: Wheel 3
+    400066: Wheel_FL
+    400068: Wheel_FR
+    400070: Wheel_RL
+    400072: Wheel_RR
+    400074: Wheels
+    2300000: Interior_Low
+    2300002: U_HC01_Black
+    2300004: U_HC01_Caliper_F
+    2300006: U_HC01_Caliper_F 1
+    2300008: U_HC01_Caliper_R
+    2300010: U_HC01_Caliper_R 1
+    2300012: U_HC01_CarbonFiber
+    2300014: U_HC01_CarBotton
+    2300016: U_HC01_CarPaint
+    2300018: U_HC01_CarPaint_color02
+    2300020: U_HC01_chrome
+    2300022: U_HC01_Lights
+    2300024: U_HC01_lights_Glass
+    2300026: U_HC01_RearView_Low
+    2300028: U_HC01_Rotor
+    2300030: U_HC01_Rotor 1
+    2300032: U_HC01_Rotor 2
+    2300034: U_HC01_Rotor 3
+    2300036: U_HC01_Tire
+    2300038: U_HC01_Tire 1
+    2300040: U_HC01_Tire 2
+    2300042: U_HC01_Tire 3
+    2300044: U_HC01_Wheel
+    2300046: U_HC01_Wheel 1
+    2300048: U_HC01_Wheel 2
+    2300050: U_HC01_Wheel 3
+    2300052: U_HC01_Windows
+    3300000: Interior_Low
+    3300002: U_HC01_Black
+    3300004: U_HC01_Caliper_F
+    3300006: U_HC01_Caliper_F 1
+    3300008: U_HC01_Caliper_R
+    3300010: U_HC01_Caliper_R 1
+    3300012: U_HC01_CarbonFiber
+    3300014: U_HC01_CarBotton
+    3300016: U_HC01_CarPaint
+    3300018: U_HC01_CarPaint_color02
+    3300020: U_HC01_chrome
+    3300022: U_HC01_Lights
+    3300024: U_HC01_lights_Glass
+    3300026: U_HC01_RearView_Low
+    3300028: U_HC01_Rotor
+    3300030: U_HC01_Rotor 1
+    3300032: U_HC01_Rotor 2
+    3300034: U_HC01_Rotor 3
+    3300036: U_HC01_Tire
+    3300038: U_HC01_Tire 1
+    3300040: U_HC01_Tire 2
+    3300042: U_HC01_Tire 3
+    3300044: U_HC01_Wheel
+    3300046: U_HC01_Wheel 1
+    3300048: U_HC01_Wheel 2
+    3300050: U_HC01_Wheel 3
+    3300052: U_HC01_Windows
+    4300000: U_HC01_CarBotton
+    4300002: U_HC01_CarPaint
+    4300004: U_HC01_CarPaint_color02
+    4300006: U_HC01_CarbonFiber
+    4300008: U_HC01_lights_Glass
+    4300010: U_HC01_Black
+    4300012: U_HC01_Windows
+    4300014: U_HC01_chrome
+    4300016: U_HC01_Lights
+    4300018: U_HC01_Caliper_F
+    4300020: U_HC01_Rotor
+    4300022: U_HC01_Tire
+    4300024: U_HC01_Wheel
+    4300026: U_HC01_Caliper_R
+    4300028: U_HC01_Rotor
+    4300030: U_HC01_Tire
+    4300032: U_HC01_Wheel
+    4300034: U_HC01_Caliper_F
+    4300036: U_HC01_Rotor
+    4300038: U_HC01_Tire
+    4300040: U_HC01_Wheel
+    4300042: U_HC01_Caliper_R
+    4300044: U_HC01_Rotor
+    4300046: U_HC01_Tire
+    4300048: U_HC01_Wheel
+    4300050: Interior_Low
+    4300052: U_HC01_RearView_Low
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4.924
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
