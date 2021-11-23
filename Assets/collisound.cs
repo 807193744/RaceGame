@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class collisound : MonoBehaviour
+public class colliSound : MonoBehaviour
 {
     void Start()
     {

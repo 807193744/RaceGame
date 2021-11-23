@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bgmgogo : MonoBehaviour
+public class bgmPlay : MonoBehaviour
 {
 
-    static bgmgogo instance = null;
-    public static bgmgogo Instance
+    static bgmPlay instance = null;
+    public static bgmPlay Instance
     {
         get
         {

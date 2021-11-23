@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bgsound : MonoBehaviour
+public class bgm : MonoBehaviour
 {
     public GameObject obje;
     GameObject obj = null;
