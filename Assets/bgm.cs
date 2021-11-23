@@ -11,18 +11,13 @@ public class bgsound : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("000000");
 
         obj = GameObject.FindGameObjectWithTag("sound");
         if (obj == null)
         {
-            Debug.Log("11111");
             obj = (GameObject)Instantiate(obje);
         }
-        else
-        {
-            Debug.Log("22222");
-        }
+
     }
 
     // Update is called once per frame
