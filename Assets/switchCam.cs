@@ -6,7 +6,7 @@ public class switchCam : MonoBehaviour
 {
     public GameObject cam1;
     public GameObject cam2;
-    int count = 0;
+   // int count = 0;
     // Update is called once per frame
     void Start()
     {
@@ -19,7 +19,7 @@ public class switchCam : MonoBehaviour
     }
     void Update()
     {
-        count = 0;
+      //  count = 0;
         if (Input.GetKeyDown(KeyCode.C))
         {
             cam2.GetComponent<Camera>().enabled = true;
