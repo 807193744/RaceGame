@@ -26,7 +26,7 @@ public class FollowTarget : MonoBehaviour
 
 
 
-void FixedUpdate()
+void Update()
     {
         // 设置追踪目标的坐标作为调整摄像机的偏移量
         targetPosition = follow.position + Vector3.up * distanceUp - follow.forward * distanceAway;

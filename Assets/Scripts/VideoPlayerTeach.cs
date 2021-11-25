@@ -189,10 +189,7 @@ public class VideoPlayerTeach : MonoBehaviour {
         }
     }
 
-    private void FixedUpdate()
-    {
 
-    }
 
     void Prepared(VideoPlayer player) {
         player.Play();

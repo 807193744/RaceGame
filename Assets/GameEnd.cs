@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameEnd : MonoBehaviour
 {
@@ -14,7 +15,15 @@ public class GameEnd : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         //change later
+        StartCoroutine(CountDown());
+    }
+
+    private IEnumerator CountDown()
+    {
+
+            yield return new WaitForSeconds(3);
         FadeToLevel();
+
     }
     public void FadeToLevel()
     {
