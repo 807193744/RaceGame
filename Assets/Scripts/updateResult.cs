@@ -43,6 +43,7 @@ public class updateResult : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+
     }
 
 }

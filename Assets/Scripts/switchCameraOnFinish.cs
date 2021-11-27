@@ -8,6 +8,10 @@ public class switchCameraOnFinish : MonoBehaviour
     public GameObject endCamera;
     public GameObject followCamera;
     public Image cinematicMask;
+    public RawImage minimapMask;
+
+    public RawImage minimap;
+    public Image restartButton;
     private void Start()
     {
         cinematicMask.enabled = false;
@@ -17,5 +21,8 @@ public class switchCameraOnFinish : MonoBehaviour
         endCamera.GetComponent<Camera>().enabled = true;
         followCamera.GetComponent<Camera>().enabled = false;
         cinematicMask.enabled = true;
+        minimapMask.enabled = false;
+        minimap.enabled = false;
+        restartButton.enabled = false;
     }
 }
