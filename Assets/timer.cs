@@ -5,24 +5,36 @@ using UnityEngine.UI;
 
 public class timer : MonoBehaviour
 {
-    float totalTime = 0;
-
+    public static int totalTime = 0;
     public Text visitBackTime;
+    public Text HighSc;
+    public Text text;
+    int lapN = 1;
+    public string b = null;
+    public float score;
     void Start()
     {
 
-        visitBackTime.text = "0 s";
+        visitBackTime.text = "Time used: " + "0 s";
         StartCoroutine(CountDown());
+        score = PlayerPrefs.GetFloat("HighScore");
+
+        HighSc.text = ("Best: " + score + " s");
+
     }
 
     private IEnumerator CountDown()
     {
-        while (true)
+
+        while (1 > 0)
         {
+
             yield return new WaitForSeconds(1);
             totalTime++;
-            visitBackTime.text = (totalTime +  "s");
+            visitBackTime.text = "Time used: " + (totalTime + " s");
+
 
         }
     }
+  
 }
