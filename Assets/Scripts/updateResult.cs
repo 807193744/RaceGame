@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class updateResult : MonoBehaviour
@@ -10,7 +11,6 @@ public class updateResult : MonoBehaviour
     public Text result;
     public Text personalBest;
     private float totalTime;
-    // Start is called before the first frame update
     void Start()
     {
 
@@ -36,9 +36,13 @@ public class updateResult : MonoBehaviour
         string timeText = String.Format("{0:00}:{1:00}.{2:000}", minutes, seconds, fraction);
         return timeText;
     }
-    // Update is called once per frame
+  
     void Update()
     {
-      //  localResult = timer.totalTime;
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(1);
+        }
     }
+
 }
