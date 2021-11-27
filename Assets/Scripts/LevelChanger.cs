@@ -21,5 +21,7 @@ public class LevelChanger : MonoBehaviour
     public void OnFadeComplete()
     {
         SceneManager.LoadScene(levelToLoad);
+        timer.totalTime = 0;
+
     }
 }
