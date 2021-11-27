@@ -15,7 +15,7 @@ public class timer : MonoBehaviour
     void Start()
     {
 
-        visitBackTime.text = "Time used: " + "0 s";
+        //visitBackTime.text = "Time used: " + "0 s";
         //StartCoroutine(CountDown());
         //score = PlayerPrefs.GetFloat("HighScore");
         //HighSc.text = ("Best: " + score + " s");

@@ -14,7 +14,7 @@ public class switchCameraOnFinish : MonoBehaviour
     public Image restartButton;
     private void Start()
     {
-        cinematicMask.enabled = false;
+     //   cinematicMask.enabled = false;
     }
     void OnTriggerEnter(Collider collider)
     {

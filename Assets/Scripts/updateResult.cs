@@ -11,15 +11,18 @@ public class updateResult : MonoBehaviour
     public Text result;
     public Text personalBest;
     private float totalTime;
+    public GameObject loadingScreen;
+
     void Start()
     {
 
-        totalTime = timer.result;
-        result.text = "Result: "+ FormatTime(PlayerPrefs.GetFloat("HighScore")) ;
+        totalTime = GameEnd.actuallResult;
+         result.text = "Result: "+ FormatTime(totalTime);
+        //result.text = "Result: " + FormatTime(totalTime) + "High: " + PlayerPrefs.GetFloat("HighScore");
+       // if (!PlayerPrefs.HasKey("HighScore")) PlayerPrefs.SetFloat("HighScore", 99999.0F);
 
-        if (!PlayerPrefs.HasKey("HighScore")) PlayerPrefs.SetFloat("HighScore", 99999);
-
-        if (timer.totalTime < PlayerPrefs.GetFloat("HighScore"))
+     
+        if (totalTime < PlayerPrefs.GetFloat("HighScore")|| PlayerPrefs.GetFloat("HighScore") ==0.0f)
         {
             PlayerPrefs.SetFloat("HighScore", totalTime);  
         }
@@ -41,6 +44,8 @@ public class updateResult : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            loadingScreen.SetActive(true);
+
             SceneManager.LoadScene(1);
         }
 

@@ -5,6 +5,7 @@ using System.Collections;
 
 public class GameEnd : MonoBehaviour
 {
+    public static float actuallResult;
     private int levelToLoadEnd = 2;
     public Animator animator2;
     void Update()
@@ -16,6 +17,7 @@ public class GameEnd : MonoBehaviour
     {
         //change later
         StartCoroutine(CountDown());
+        actuallResult = timer.result;
     }
 
     private IEnumerator CountDown()

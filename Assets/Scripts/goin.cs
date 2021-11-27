@@ -5,19 +5,20 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class goin : MonoBehaviour
 {
+    public GameObject loadingScreen;
+
     void Start()
     {
         Screen.SetResolution(2560, 1440, true);
         Application.targetFrameRate = 144;
     }
 
-    void OnGUI()
+    void Update()
     {
-
         if (Input.anyKeyDown)
         {
-
-            SceneManager.LoadScene(1);
+         loadingScreen.SetActive(true);
+         SceneManager.LoadSceneAsync(1);
         }
     }
 }
